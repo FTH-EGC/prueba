@@ -18,3 +18,5 @@ Select * From tbl_datos where id = 20;
 Select * From tbl_datos where nombre like '%s';
 
 git checkout master - cambio de rama
+
+git branch pruebas
