@@ -20,3 +20,5 @@ Select * From tbl_datos where nombre like '%s';
 git checkout master - cambio de rama
 
 git branch pruebas
+
+git log --all --decorate --oneline --graph
