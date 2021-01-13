@@ -11,3 +11,10 @@ USE usuarios;
 CREATE TABLE tbl_datos(id INT IDENTITY(1,1) PRIMARY KEY, nombre varchar(50), apellido_paterno varchar(50), apellio_materno varchar(50));
 
 Select * From tbl_datos;
+
+
+Select nombre from tbl_datos;
+Select * From tbl_datos where id = 20;
+Select * From tbl_datos where nombre like '%s';
+
+git checkout master - cambio de rama
