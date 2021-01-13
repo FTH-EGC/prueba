@@ -5,3 +5,9 @@ prueba2
 creacion de ramas adicionales para ir agregando cambios
 
 Cambios en el còdio
+CREATE DATABASE usuarios;
+USE usuarios;
+
+CREATE TABLE tbl_datos(id INT IDENTITY(1,1) PRIMARY KEY, nombre varchar(50), apellido_paterno varchar(50), apellio_materno varchar(50));
+
+Select * From tbl_datos;
