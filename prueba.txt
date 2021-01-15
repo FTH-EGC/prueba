@@ -22,3 +22,100 @@ git checkout master - cambio de rama
 git branch pruebas
 
 git log --all --decorate --oneline --graph
+
+
+//Comandos JQuery
+
+//Cuando el documento està listo
+$(document).ready(function (){
+	console.log('Documento listo');
+});
+
+($function() {
+});
+
+//Seleccionar elementos 
+
+$('h1'); // por etiqueta
+
+$('.header'); // por clase
+
+$('#idSelect'); // por id
+
+document.querySelector('.clase p');
+
+$(.navegacion a:last-of-type);
+
+//Agregar un evento 
+
+$('Header').on('click', function () {
+	console.log('Agregando');
+});
+
+//Eventos del mouse
+
+$('.header').on('dblclick', funcion());
+$('.header').on('mouseenter', funcion());
+$('.header').on('mouseleave', funcion());
+
+//Eventos del teclado
+
+$('input').on('keypress', function());
+$('input').on('keydown', function());
+$('input').on('keyup', function());
+
+//Agregar elementos al dom
+
+$('contenedor').append('<p>Contenido a agregar</p>');
+
+
+//Ocultar elementos
+$('contenido').hide();
+
+
+//Mostrar elementos
+$('contenido').show();
+
+//Toggle // ocultar o mostrar un elemento
+
+$('contenido').toggle();
+
+////////JS////////
+
+//Seleccionar elementos
+
+const header = document.querySelector('.header');
+const header = document.getElementById('header');
+
+//Eventos 
+
+header.addEventListener('mouseenter', () => {
+	header.style.backgroundColor = "#000"
+});
+
+
+//Agregar elementos al DOM
+
+const h2 = document.createElement('h2');
+const header = document.querySelector('.header');
+h2.textContent = 'Hola Mundo';
+header.appendChild(h2);
+
+//Funciones 
+
+function declaration 
+
+function obtenerDatos() {
+	console.log('obteniendo datos');
+
+}
+
+function expression
+
+const obtenerDatos = () => {
+
+	console.log('obteniendo datos');
+}
+
+
+
